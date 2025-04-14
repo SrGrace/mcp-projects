@@ -30,6 +30,8 @@ My Projects Repo for MCP (Model Context Protocol)
 ## What is Model Context Protocol (MCP)?
 At its core, MCP is a standardized way for applications to provide AI models with richer context about their environment, user preferences, and conversation history. Think of it as a smart, structured way to feed memory and context to AI systems.
 
+![MCP Structure](./data/mcp%20structure.png)
+
 ### The Problem MCP Solves
 Current AI systems have limited "working memory" - they can only see a certain amount of conversation history at once (their "context window"). Imagine trying to have a conversation with someone who only remembers the last few exchanges:
 - You: "Remember that project we discussed last week about optimizing the supply chain?"
