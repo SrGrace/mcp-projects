@@ -14,6 +14,7 @@ My Projects Repo for MCP (Model Context Protocol)
     pip install llama-index
     pip install llama-index-embeddings-huggingface
     pip install llama-index-llms-langchain
+    pip install langchain-mcp-adapters
     ```
 3. Make a .env file in the root folder with the following credentials:
     ```
