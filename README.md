@@ -15,6 +15,7 @@ My Projects Repo for MCP (Model Context Protocol)
     pip install llama-index-embeddings-huggingface
     pip install llama-index-llms-langchain
     pip install langchain-mcp-adapters
+    pip install mcp-use
     ```
 3. Make a .env file in the root folder with the following credentials:
     ```
@@ -22,9 +23,15 @@ My Projects Repo for MCP (Model Context Protocol)
     PROJECT_ID=<Watsonx_Project_id>
     IBM_CLOUD_URL=<IBM cloud url>
 
-    or, use your own llm providers - its agnostic to the projects
+    MODEL_ID=<your watsonx.ai LLM id>
+
+    TAVILY_API_KEY=<your Tavily api key for web search>
+
+    or, use your own llm providers - its agnostic to the projects (few changes needs to be done)
     ```
 4. Experiment with different projects and files
+    - make sure to run the mcp servers first and then only
+    - run the clients
 
 
 ## What is Model Context Protocol (MCP)?
@@ -48,6 +55,8 @@ MCP is like a GPS navigation system that:
 - Remembers your preferred routes
 - Adjusts based on real-time conditions
 - Always knows exactly where you are in the journey
+
+Read this medium article for comprehensive understanding of MCP: [Understanding Model Context Protocol (MCP): A Layman’s Guide](https://medium.com/@SrGrace_/understanding-model-context-protocol-mcp-a-laymans-guide-4737aab5fc6b)
 
 
 `Do make Pull Requests to contribute to this asset ✨`
