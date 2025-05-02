@@ -6,7 +6,6 @@ app = FastAPI()
 
 mcp = FastApiMCP(
     app,
-
     # Optional parameters
     name="My API MCP",
     description="My API description",
