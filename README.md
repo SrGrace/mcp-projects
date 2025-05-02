@@ -43,6 +43,7 @@ At its core, MCP is a standardized way for applications to provide AI models wit
 Current AI systems have limited "working memory" - they can only see a certain amount of conversation history at once (their "context window"). Imagine trying to have a conversation with someone who only remembers the last few exchanges:
 - You: "Remember that project we discussed last week about optimizing the supply chain?"
 - AI without good context: "I don't recall that specific discussion. Could you remind me of the details?"
+- 
 This limitation forces users to constantly re-explain things, leading to frustrating interactions. MCP aims to solve this by creating a structured method for maintaining and accessing context.
 
 ### Some Analogies
