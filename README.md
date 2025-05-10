@@ -7,15 +7,7 @@ My Projects Repo for MCP (Model Context Protocol)
 1. Clone this repo
 2. Install the requirements
     ```
-    pip install mcp
-    pip install fastapi
-    pip install uvicorn
-    pip install fastapi-mcp
-    pip install llama-index
-    pip install llama-index-embeddings-huggingface
-    pip install llama-index-llms-langchain
-    pip install langchain-mcp-adapters
-    pip install mcp-use
+    pip install mcp fastapi uvicorn fastapi-mcp llama-index llama-index-embeddings-huggingface llama-index-llms-langchain langchain-mcp-adapters mcp-use
     ```
 3. Make a .env file in the root folder with the following credentials:
     ```
