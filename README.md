@@ -1,6 +1,6 @@
 # mcp-projects
 
-Open-Source Projects Repo for MCP (Model Context Protocol)
+Open-Source Projects Repo for MCP (Model Context Protocol).
 
 ## Steps to install and run:
 
