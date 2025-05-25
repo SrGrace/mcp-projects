@@ -19,7 +19,7 @@ Open-Source Projects Repo for MCP (Model Context Protocol)
 
     TAVILY_API_KEY=<your Tavily api key for web search>
 
-    or, use your own llm providers - its agnostic to the projects (few changes needs to be done)
+    or, use your own llm provider - its agnostic to the projects (few changes needs to be done though)
     ```
 4. Experiment with different projects and files
     - make sure to run the mcp servers first and then only
