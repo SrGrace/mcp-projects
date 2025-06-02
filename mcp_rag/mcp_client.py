@@ -46,4 +46,4 @@ if __name__ == "__main__":
     parser.add_argument("query", type=str, help="The query to process")
     args = parser.parse_args()
 
-    asyncio.run(main(args.query))
+    asyncio.run(main(args.query)) 
