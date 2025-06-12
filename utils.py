@@ -7,7 +7,7 @@ from ibm_watsonx_ai.metanames import GenTextParamsMetaNames as GenParams
 
 
 class ChatWatsonxWithRetry(ChatWatsonx):
-    def invoke(self, *args, max_retries=3, **kwargs):
+    def invoke(self, *args, max_retries=3, **kwargs): 
         """
         Call the invoke method with retry mechanism.
         :param max_retries: Maximum number of retries if invoke fails.
