@@ -37,7 +37,7 @@ def watsonx_chat_model(model_id="meta-llama/llama-3-3-70b-instruct", decoding_me
     }
     ibm_cloud_url = os.getenv("IBM_CLOUD_URL", None)
     project_id = os.getenv("PROJECT_ID", None)
-    api_key = os.getenv("API_KEY")
+    api_key = os.getenv("API_KEY", None)
     watsonx_llm = ChatWatsonxWithRetry(
         model_id=model_id,
         url=ibm_cloud_url,
