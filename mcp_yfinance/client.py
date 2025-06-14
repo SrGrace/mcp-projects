@@ -106,3 +106,4 @@ if __name__ == "__main__":
     query = "Analyze the key financial metrics for IBM."
     print(f"\n##### for query: {query} #####")
     print(extract_agent_response_info(asyncio.run(run_agent(query))))
+
