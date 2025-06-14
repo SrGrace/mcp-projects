@@ -61,7 +61,7 @@ def analyze_ticker(ticker: str) -> str:
     result = {
         "name": info.get("longName", ticker.upper()),
         "price": info.get("regularMarketPrice", "N/A"),
-        "trailingPE": info.get("trailingPE", "N/A"),
+        "trailingPE": info.get("trailingPE", "N/A"), # PE
         "EPS": info.get("trailingEps", "N/A"),
         "marketCap": info.get("marketCap", "N/A")
     }
