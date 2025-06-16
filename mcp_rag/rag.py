@@ -82,7 +82,7 @@ class RAGWorkflow(Workflow):
         """Helper method to ingest documents."""
         result = await self.run(dirname=directory)
         self.index = result
-        return result
+        return result 
 
 # Example usage
 async def main():
