@@ -23,5 +23,6 @@ async def new_endpoint():
 # Refresh the MCP server to include the new endpoint
 mcp.setup_server()
 
+# not needed necessarily
 if __name__ == "__main__":
     uvicorn.run(app, host="0.0.0.0", port=8000) 
