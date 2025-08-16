@@ -13,5 +13,5 @@ def multiply(a: int, b: int) -> int:
     return a * b
 
 if __name__ == "__main__":
-    # Start the MCP server in stdio mode (runs until program exits).
+    # Start the MCP server in stdio mode (runs until program exits). 
     mcp_server.run(transport="stdio")
